@@ -1,0 +1,22 @@
+{
+  "name": "@abdurahmanus/w-pl1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc src/index.ts --declaration true --outDir dist",
+    "predeploy": "npm run build",
+    "deploy": "npm publish --access public"
+  },
+  "keywords": [],
+  "author": "abdurahmanus",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@abdurahmanus/r-pl1": "^1.0.0",
+    "@abdurahmanus/w-core": "^1.0.2"
+  }
+}

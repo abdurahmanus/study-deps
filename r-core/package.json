@@ -1,0 +1,17 @@
+{
+  "name": "@abdurahmanus/r-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc src/index.ts --declaration true --outDir dist",
+    "predeploy": "npm run build",
+    "deploy": "npm publish --access public"
+  },
+  "keywords": [],
+  "author": "abdurahmanus",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
